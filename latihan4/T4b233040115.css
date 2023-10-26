@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 16px/28px arial, sans-serif;
+  background-color: #eaeaea;
+  background-image: url(borneo-fc-vs-persib-180122_2.jpg);
+  color: #333;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: #eaeaea;
+}
+
+.header {
+  padding: 20px;
+}
+
+.header .judul {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.header ul li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #8814f4;
+  padding: 3px;
+}
+
+.header a:hover {
+  color: #8814f4;
+  border-bottom: 1px solid #8814f4;
+}
+
+.hero {
+  height: 280px;
+  background-image: url(soppyan.jpg);
+  background-size: cover;
+  background-position: 0 -40px;
+  border-top: 5px solid #8814fa;
+  border-bottom: 5px solid #8814f4;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.content .penulis {
+  font-size: 11px;
+  margin-top: -5px;
+}
+
+.content .penulis a {
+  text-decoration: none;
+  color: #8814f4;
+}
+.content p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.komentar {
+  padding: 15px;
+  margin: 15px;
+}
+
+form input,
+form textarea {
+  width: 50%;
+  outline: none;
+  border: 0;
+  background: #333;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 6px;
+}
+
+form .btn {
+  background: #333;
+  color: #eaeaea;
+  text-align: center;
+  margin-left: 5px;
+  padding: 5px;
+  border: 1px solid #333;
+  border-radius: 6px;
+}
+
+.footer {
+  background-color: #333;
+  padding: 20px;
+}
+
+.footer .copy {
+  color: #eaeaea;
+  text-align: center;
+  font-size: 12px;
+}
